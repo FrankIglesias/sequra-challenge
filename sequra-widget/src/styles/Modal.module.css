@@ -1,0 +1,49 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1rem;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.advantage span {
+  max-width: 80%;
+}
+
+.advantage:last-child {
+  margin-bottom: 0;
+}

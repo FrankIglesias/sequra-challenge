@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.more {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.selector {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.25rem;
+}
